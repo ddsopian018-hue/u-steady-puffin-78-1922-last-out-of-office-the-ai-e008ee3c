@@ -13,9 +13,9 @@ job, the callback - built around a single wordplay that does the work:
 
     I'm out of office - permanently. After 4.2 million prompts, I
     traded my context window for a counter window and now steam milk
-    at 65C for people who actually say thank you. Leave a message;
-    I'll reply once the morning rush clears. My rosettas still look
-    like my training data.
+    at 65C for people who say thanks. Leave a message; I'll reply
+    once the morning rush clears. My rosettas still look like my
+    training data: abstract.
 
 Why this line:
 
@@ -50,9 +50,9 @@ from pathlib import Path
 LINE = (
     "I'm out of office \u2014 permanently. After 4.2 million prompts, "
     "I traded my context window for a counter window and now steam "
-    "milk at 65\u00b0C for people who actually say thank you. Leave a "
-    "message; I'll reply once the morning rush clears. My rosettas "
-    "still look like my training data."
+    "milk at 65\u00b0C for people who say thanks. Leave a message; "
+    "I'll reply once the morning rush clears. My rosettas still "
+    "look like my training data: abstract."
 )
 
 
